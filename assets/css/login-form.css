@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/login-form/bg-login5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-login {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 12%;
+}
+
+.page-login-kiri {
+    display: block;
+}
+
+.logo-agenda img {
+    width: 180px;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.link {
+    margin-top: 0px;
+    margin-left: 230px;
+}
+
+.link a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.title-login p {
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #000840;
+    letter-spacing: 1px;
+    margin-right: -30px;
+}
+
+.title-login-child p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+form {
+    margin-top: 60px;
+}
+
+.name-pw {
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    border: 2px solid #000;
+}
+
+.input-remember {
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #000;
+}
+
+button {
+    width: 315px;
+    height: 30px;
+    background-color: #5453F3;
+    border: none;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4D2DB7;
+}
+
+@media screen and (max-width: 1200px) {
+    .page-login {
+        padding: 50px 10%;
+    }
+
+    .logo-agenda img {
+        margin-left: 90px;
+    }
+
+    .link {
+        margin-left: -1px;
+        margin-left: 215px;
+    }
+
+    .page-login-kanan {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .link {
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .page-login {
+        padding: 50px 8%;
+    }
+
+    .link {
+        margin-left: -1px;
+        margin-left: 190px;
+    }
+
+    .page-login-kanan {
+        margin-top: 70px;
+    }
+
+    .title-login p {
+        margin-left: 15px;
+    }
+
+    .title-login-child {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .link {
+        margin-top: -40px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .page-login {
+        padding: 50px 7%;
+    }
+
+    .page-login-kanan {
+        margin-top: -1px;
+        margin-top: 10px;
+    }
+
+    .logo-agenda img {
+        width: 130px;
+    }
+
+    .link {
+        margin-left: 1px;
+        margin-left: 150px;
+        margin-top: 1px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .page-login {
+        padding: 50px 5%;
+    }
+
+    .title-login p {
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+    .name-pw {
+        width: 250px;
+        margin-left: 30px;
+    }
+
+    .input-remember {
+        margin-left: 30px;
+    }
+
+    button {
+        width: 265px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    body {
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+
+    .link {
+        margin-left: 1px;
+        margin-left: 120px;
+        margin-top: 1px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .link {
+        margin-left: 1px;
+        margin-left: 100px;
+        margin-top: 1px;
+    }
+
+    .logo-agenda img {
+        margin-left: -1px;
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .link {
+        margin-left: 1px;
+        margin-left: 80px;
+        margin-top: 1px;
+    }
+
+    .logo-agenda img {
+        margin-left: -1px;
+        margin-left: 60px;
+    }
+
+    .name-pw {
+        width: 200px;
+        margin-left: 40px;
+    }
+
+    .input-remember {
+        margin-left: 40px;
+    }
+
+    button {
+        width: 205px;
+        margin-left: 40px;
+    }
+
+    .title-login p {
+        margin-left: -1px;
+        margin-left: 30px;
+    }
+
+    .title-login-child {
+        margin-left: -1px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .logo-agenda img {
+        margin-left: -1px;
+        margin-left: 40px;
+    }
+
+    .link {
+        margin-left: 1px;
+        margin-left: 60px;
+    }
+
+    .title-login p {
+        margin-left: -1px;
+        margin-left: 50px;
+    }
+
+    .title-login-child {
+        margin-left: -1px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .name-pw {
+        margin-right: -10px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    body {
+        text-align: center;
+        background-image: url(../img/login-form/bg-login2.png);
+    }
+
+    .page-login {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .page-login-kiri {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .logo-agenda img {
+        width: 100px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .page-login-kanan {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .link {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 50px;
+    }
+
+    .link a {
+        display: inline-block;
+    }
+
+    .title-login p {
+        font-size: 40px;
+        margin-left: 0;
+    }
+
+    .title-login-child p {
+        margin-left: 0;
+    }
+
+    .name-pw {
+        width: 300px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .input-remember {
+        margin-left: -200px;
+    }
+
+    button {
+        width: 310px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
